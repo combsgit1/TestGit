@@ -1,0 +1,22 @@
+---
+title: "Git Practice R Markdown"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is to Practice saving R file to GitHub
+
+**First Commit**
+
+```{r}
+# z-score
+f <- function(x){
+  z <- (x-mean(x))/sd(x)
+}
+```
+
